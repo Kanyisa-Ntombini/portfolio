@@ -1,5 +1,5 @@
 .About {
-  margin: 1.5rem 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .professional-pic {
@@ -12,7 +12,7 @@
 .About h2 {
   color: #b12842;
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .About p {
