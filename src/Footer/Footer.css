@@ -1,0 +1,13 @@
+.Footer {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 64rem) {
+  .Footer {
+    position: absolute;
+    top: 130rem;
+    width: 100%;
+  }
+}
