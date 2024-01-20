@@ -1,0 +1,31 @@
+.About {
+  margin: 1.5rem 1rem;
+}
+
+.professional-pic {
+  border: 0.2rem solid #b12842;
+  border-radius: 50%;
+  width: 50%;
+  margin: 0rem auto;
+}
+
+.About h2 {
+  color: #b12842;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.About p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+/* Desktop laptop 1024px */
+@media screen and (min-width: 64rem) {
+  .About {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 8.75rem;
+  }
+}

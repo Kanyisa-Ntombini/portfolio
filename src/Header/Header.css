@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 10rem;
+  height: 10rem;
 }
 
 .Header li {
@@ -34,6 +34,7 @@
   padding: 3.5rem 1rem;
   position: fixed;
   top: 0;
+  z-index: 1;
   width: 1.75rem;
   color: #b12842;
 }
@@ -77,8 +78,12 @@
 
 /* Desktop laptop 1024px */
 @media screen and (min-width: 64rem) {
-  .Header .Desktop {
-    height: 6.5rem;
+  .Header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 8.75rem;
   }
 
   .Header h1 {
@@ -86,7 +91,7 @@
     padding-top: 1.5rem;
   }
 
-  .Desktop-Nav {
+  .Desktop nav {
     width: 50%;
     margin: 1.5rem auto;
     display: flex;

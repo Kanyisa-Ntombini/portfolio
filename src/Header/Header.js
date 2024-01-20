@@ -41,7 +41,7 @@ function Header() {
         <h1>
           <a href="#index">Kanyisa Ntombini</a>
         </h1>
-        <nav className="Desktop-Nav">{navItems}</nav>
+        <nav>{navItems}</nav>
       </div>
     </header>
   );
