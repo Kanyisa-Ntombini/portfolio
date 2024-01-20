@@ -1,0 +1,23 @@
+.Contact h2 {
+  color: #b12842;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.Social-Media {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Social-Media figure {
+  width: 3rem;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 64rem) {
+  .Contact {
+    position: absolute;
+    top: 120rem;
+    width: 100%;
+  }
+}
