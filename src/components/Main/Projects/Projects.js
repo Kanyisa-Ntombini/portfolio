@@ -1,7 +1,7 @@
 import './Projects.css';
 import botPrototype from './images/bot-prototype.png';
 import coffeeBook from './images/coffee-book.jpg';
-import usingPhone from './images/using-phone.jpg';
+import bookClub from './images/book-club.jpg';
 
 function Projects() {
   return (
@@ -10,8 +10,11 @@ function Projects() {
       <p>
         The following projects were inspired by{' '}
         <a href="https://www.codecademy.com/learn">Codecademy's</a> "Flexbox
-        Business Site" project. I created a webpage, phone app and chatbot for
-        an imaginary book and coffee shop called The Cosy Corner.
+        Business Site" project. An imaginary coffee and booksop called The Cosy
+        Corner has commissioned a few products for it's online presence. This
+        consists of a web page for the coffee shop, a server for keeping data of
+        customers that have joined the book club and a chatbot for the mobile
+        app.
       </p>
 
       <div className="All-Projects">
@@ -41,25 +44,21 @@ function Projects() {
         </div>
 
         <div className="Project-Container">
-          <h3>App Prototype</h3>
+          <h3>Server for the book club</h3>
           <figure>
-            <img src={botPrototype} alt="Screenshot of the app prototype" />
+            <img src={bookClub} alt="Screenshot of the app prototype" />
             <figcaption>Caption</figcaption>
           </figure>
           <p>
-            This is a{' '}
-            <a href="https://www.figma.com/proto/j1s8Y1T8wHMG0MCSZYiqhQ/Cozy-Corner-App?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A3">
-              prototype
-            </a>{' '}
-            for the app customers will use to order books and hot drinks online
-            to be delivered to their doorstep. It has been created with Figma.
+            This is a server that is run locally that stores data of customers
+            that have joined the book club
           </p>
         </div>
 
         <div className="Project-Container">
           <h3>Chatbot</h3>
           <figure>
-            <img src={usingPhone} alt="A man typing on a smart phone" />
+            <img src={botPrototype} alt="A man typing on a smart phone" />
             <figcaption>Caption</figcaption>{' '}
           </figure>
           <p>
